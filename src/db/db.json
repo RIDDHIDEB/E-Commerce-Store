@@ -1,0 +1,119 @@
+{
+    "categories":[
+        {"id": 1, "title": "Fridges"},
+        {"id": 2, "title": "Kettles"},
+        {"id": 3, "title": "Televisions"}
+    ],
+    "products":[
+        {
+            "id": 1, 
+            "catId": 1,
+            "title": "Beko Integrated Freezer",
+            "image": "fridge1.png",
+            "price": 25000,
+            "description": "The Beko Integrated tall freezer has a 220 litre capacity and 4 star rating",
+            "specs": {"dimensions": "177.5 x 54 x 54.5cm (H x W x D)", "capacity": "220 litres"},
+            "features":["Food freshness feature to keep your fruit & veg fresh","Digital Inverter Compressor","Direct cool: Economical,consumes less electricity,requires manual defrosting"],
+            "stock": 20   
+        },
+        {
+            "id": 2, 
+            "catId": 1, 
+            "title": "Whirlpool White Freezer",
+            "image": "fridge2.png",
+            "price": 28500,
+            "description": "Keep your food fresh with Whirlpool freezer. It has a capacity of 250 litres and 3 star rating",
+            "specs": {"dimensions": "180 x 55 x 54.5cm (H x W x D)", "capacity": "250 litres"},
+            "features":["Food freshness feature to keep your fruit & veg fresh","Digital Inverter Compressor","Direct cool: Economical,consumes less electricity,requires manual defrosting"],
+            "stock": 25
+        },
+        {
+            "id": 3, 
+            "catId": 1, 
+            "title": "Beko Integrated Tall Freezer",
+            "image": "fridge3.png",
+            "price": 27500,
+            "description": "Keep your food fresh with Beko freezer. It has a capacity of 210 litres and 4 star rating",
+            "specs": {"dimensions": "180 x 55 x 54.5cm (H x W x D)", "capacity": "210 litres"},
+            "features":["Food freshness feature to keep your fruit & veg fresh","Digital Inverter Compressor","Direct cool: Economical,consumes less electricity,requires manual defrosting"],
+            "stock": 15
+        },
+        {
+            "id": 4, 
+            "catId": 1, 
+            "title": "Whirlpool Integrated Freezer",
+            "image": "fridge4.png",
+            "price": 30000,
+            "description": "Keep your food fresh with Whirlpool freezer. It has a capacity of 260 litres and 3 star rating",
+            "specs": {"dimensions": "170 x 60 x 54.5cm (H x W x D)", "capacity": "260 litres"},
+            "features":["Food freshness feature to keep your fruit & veg fresh","Digital Inverter Compressor","Direct cool: Economical,consumes less electricity,requires manual defrosting"],
+            "stock": 25
+        },
+        {
+            "id": 5, 
+            "catId": 1, 
+            "title": "Samsung White Freezer",
+            "image": "fridge5.png",
+            "price": 30500,
+            "description": "Keep your food fresh with Samsung freezer. It has a capacity of 255 litres and 5 star rating",
+            "specs": {"dimensions": "180 x 55 x 54.5cm (H x W x D)", "capacity": "255 litres"},
+            "features":["Food freshness feature to keep your fruit & veg fresh","Digital Inverter Compressor","Direct cool: Economical,consumes less electricity,requires manual defrosting"],
+            "stock": 10
+        },
+        {
+            "id":6,
+            "catId":3,
+            "title":"Samsung Smart HD LED TV",
+            "image":"TV1.png",
+            "price":"30000",
+            "description":"Glorius colour settle for anything less than crystal clear colour.",
+            "specs":{"dimensions":"718.6 x 1115.8 x 250.2 mm (H x W x D)"},
+            "features":["crystal display & sharp contrast","smart HD LED TV", "Picture quality: 2000PQI", "HDMI 2.0a x 2", "Catch-up TV & 4K streaming"],
+            "stock":5
+        },
+        {
+            "id":7,
+            "catId":3,
+            "title":"Samsung NEO QLED TV",
+            "image":"TV2.png",
+            "price":"45000",
+            "description":"Glorius colour settle for anything less than crystal clear colour.",
+            "specs":{"dimensions":"718.6 x 1115.8 x 250.2 mm (H x W x D)"},
+            "features":["crystal display & sharp contrast","smart QLED TV", "Picture quality: 2000PQI", "HDMI 2.0a x 2", "Catch-up TV & 4K streaming"],
+            "stock":10
+        },
+        {
+            "id":8,
+            "catId":3,
+            "title":"LG Smart OLED TV",
+            "image":"TV3.png",
+            "price":"32000",
+            "description":"Glorius colour settle for anything less than crystal clear colour.",
+            "specs":{"dimensions":"718.6 x 1115.8 x 250.2 mm (H x W x D)"},
+            "features":["crystal display & sharp contrast","smart OLED TV", "Picture quality: 2000PQI", "HDMI 2.0a x 2", "Catch-up TV & 4K streaming"],
+            "stock":7
+        },
+        {
+            "id":9,
+            "catId":3,
+            "title":"LG UHD LED TV",
+            "image":"TV4.png",
+            "price":"35000",
+            "description":"Glorius colour settle for anything less than crystal clear colour.",
+            "specs":{"dimensions":"718.6 x 1115.8 x 250.2 mm (H x W x D)"},
+            "features":["crystal display & sharp contrast","smart UHD LED TV", "Picture quality: 2000PQI", "HDMI 2.0a x 2", "Catch-up TV & 4K streaming"],
+            "stock":10
+        },
+        {
+            "id":10,
+            "catId":3,
+            "title":"Sony Bravia HD OLED TV",
+            "image":"TV5.png",
+            "price":"37000",
+            "description":"Glorius colour settle for anything less than crystal clear colour.",
+            "specs":{"dimensions":"718.6 x 1115.8 x 250.2 mm (H x W x D)"},
+            "features":["crystal display & sharp contrast"," HD OLED TV", "Picture quality: 2000PQI", "HDMI 2.0a x 2", "Catch-up TV & 4K streaming"],
+            "stock":5
+        }
+    ]
+}

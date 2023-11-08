@@ -1,0 +1,151 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  font-family:arial;
+}
+
+/*style the header*/
+header{
+  background-color: grey;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/*container for flexboxes*/
+section{
+ 
+  display:flex;
+}
+
+/*style navigation menu*/
+nav{
+  background: #ccc;
+  padding: 20px;
+}
+
+/*style list inside menu*/
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  cursor: pointer;
+}
+nav ul li{
+  padding-bottom: 5px;
+}
+nav ul li:hover{
+  color: blue;
+}
+
+/*style the content*/
+article{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.25fr 1fr 0.25fr;
+  column-gap: 20px;
+}
+
+footer{
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.category-product-title{
+  grid-column:1/span 3;
+  color: darkslategrey;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-left: 10px;
+}
+
+.category-product-image-container{
+  padding:10px;
+  width:100%;
+}
+
+.category-product-image-container img{
+  width: 60%;
+  height: 60%;
+}
+
+.category-product-info-header{
+  display:flex;
+}
+
+.category-product-info-finance-price{
+  color:darkslategrey;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.category-product-info-dimensions,
+.category-product-info-capacity{
+  display:flex;
+  flex-direction: column;
+}
+
+.category-product-info-dimensions h3,
+.category-product-info-capacity h3,
+.category-product-info-features h3{
+  color: darkslategrey;
+  font-size: 1em;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.category-product-info-features li{
+  padding-top: 5px;
+}
+
+.category-product-info-stock{
+  padding-left: 10px;
+  margin-top: 20px;
+  padding-top: 10px;
+  background-color: lightgrey;
+  height: 25%;
+  width: 30%;
+  border-radius: 5px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.category-product-info-stock label{
+  padding-bottom: 5px;
+}
+
+.category-product-action{
+  display: flex;
+  flex-direction: column;
+}
+
+.category-product-action button{
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 10px;
+  background-color: lightgrey;
+  border: solid 1px slategrey;
+  font-weight: bold;
+}
+
+.category-product-action button:last-child{
+  background-color: darkgray;
+}
+
+@media (max-width:600px){
+  section{
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
